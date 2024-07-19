@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://7emoutyx.github.io/dy/categories/</loc>
+    <loc>http://localhost:1313/dy/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://7emoutyx.github.io/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://7emoutyx.github.io/fr/categories/"
+                href="http://localhost:1313/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://7emoutyx.github.io/de/categories/"
+                href="http://localhost:1313/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="dy"
-                href="https://7emoutyx.github.io/dy/categories/"
+                href="http://localhost:1313/dy/categories/"
                 />
   </url><url>
-    <loc>https://7emoutyx.github.io/dy/</loc>
+    <loc>http://localhost:1313/dy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://7emoutyx.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://7emoutyx.github.io/fr/"
+                href="http://localhost:1313/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://7emoutyx.github.io/de/"
+                href="http://localhost:1313/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="dy"
-                href="https://7emoutyx.github.io/dy/"
+                href="http://localhost:1313/dy/"
                 />
   </url><url>
-    <loc>https://7emoutyx.github.io/dy/tags/</loc>
+    <loc>http://localhost:1313/dy/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://7emoutyx.github.io/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://7emoutyx.github.io/fr/tags/"
+                href="http://localhost:1313/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://7emoutyx.github.io/de/tags/"
+                href="http://localhost:1313/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="dy"
-                href="https://7emoutyx.github.io/dy/tags/"
+                href="http://localhost:1313/dy/tags/"
                 />
   </url>
 </urlset>

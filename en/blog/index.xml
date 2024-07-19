@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on DAOUDI MOHAMMED</title>
+    <link>https://7emoutyx.github.io/en/blog/</link>
+    <description>Recent content in Blogs on DAOUDI MOHAMMED</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://7emoutyx.github.io/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boards </title>
+      <link>https://7emoutyx.github.io/en/blog/hello_world/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/hello_world/</guid>
+      <description>SAAD GAY </description>
+    </item>
+  </channel>
+</rss>
