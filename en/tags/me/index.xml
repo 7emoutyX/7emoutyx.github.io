@@ -6,42 +6,35 @@
     <description>Recent content in Me on DAOUDI MOHAMMED</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 15:35:00 +0100</lastBuildDate>
     <atom:link href="https://7emoutyx.github.io/en/tags/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Board 1 </title>
-      <link>https://7emoutyx.github.io/en/blog/project001/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project001/</guid>
-      <description>Mazal maktbt walo hna hh</description>
-    </item>
-    <item>
-      <title>Boards </title>
-      <link>https://7emoutyx.github.io/en/blog/project002/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project002/</guid>
-      <description>Mazal maktbt walo hna hh</description>
-    </item>
-    <item>
-      <title>Boards </title>
-      <link>https://7emoutyx.github.io/en/blog/project003/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project003/</guid>
-      <description>Mazal maktbt walo hna hh</description>
-    </item>
-    <item>
-      <title>Boards </title>
-      <link>https://7emoutyx.github.io/en/blog/project004/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project004/</guid>
-      <description>Mazal maktbt walo hna hh</description>
+      <title>ESP32-12E Dev Board</title>
+      <link>https://7emoutyx.github.io/en/blog/project_espether/</link>
+      <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project_espether/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The ESP32-12E Dev Board is a custom development board designed to leverage the capabilities of the ESP32-12E microcontroller. This board includes an Ethernet port for wired network connectivity and multiple JST connectors for easy I/O interfacing, making it ideal for IoT applications and prototyping.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chkun ana ?</title>
       <link>https://7emoutyx.github.io/en/page/about/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://7emoutyx.github.io/en/page/about/</guid>
-      <description>Oh heyy!! I&amp;rsquo;m Mohammed DAOUDI , also known by Hemouty &amp;hellip; A 22yo passionate electronics and embedded systems engineering student from Morocco , ENSA-Kénitra .I Love C++ , Rust , Electronics and other electrical stuff &amp;hellip;</description>
+      <description>Oh heyy!! I&amp;rsquo;m Mohammed DAOUDI, also known by Hemouty. I&amp;rsquo;m a 22-year-old passionate electronics and embedded systems engineering student from Morocco, studying at ENSA-Kénitra.&#xA;I love C++, Rust, electronics, and other electrical stuff. More About Me From a young age, I&amp;rsquo;ve been fascinated by how things work. This curiosity led me to explore the world of electronics and embedded systems. I enjoy designing and developing projects that solve real-world problems.</description>
+    </item>
+    <item>
+      <title>STM32Wb55-DEV BOARD </title>
+      <link>https://7emoutyx.github.io/en/blog/project_max30102/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project_max30102/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The STM32Wb55-DEV BOARD is a development board based on the STM32Wb55 microcontroller. This board is equipped with the Max30102 sensor, which allows for monitoring heart rate and oxygen levels in the blood. It is designed for wearable health monitoring applications and provides a compact and efficient solution for developers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>STM32L432KBU Dev Board</title>
+      <link>https://7emoutyx.github.io/en/blog/project_stmnrf/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project_stmnrf/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The STM32L432KBU Dev Board is a custom development board designed around the STM32L432KBU microcontroller and the NRF24L01 wireless module. This board is ideal for low-power wireless communication applications and IoT projects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
