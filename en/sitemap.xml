@@ -2,16 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://7emoutyx.github.io/en/tags/about-us/</loc>
-    <lastmod>2024-07-19T15:35:00+01:00</lastmod>
-  </url><url>
     <loc>https://7emoutyx.github.io/en/blog/</loc>
     <lastmod>2024-07-19T15:35:00+01:00</lastmod>
   </url><url>
-    <loc>https://7emoutyx.github.io/en/tags/contact/</loc>
+    <loc>https://7emoutyx.github.io/en/</loc>
     <lastmod>2024-07-19T15:35:00+01:00</lastmod>
   </url><url>
-    <loc>https://7emoutyx.github.io/en/</loc>
+    <loc>https://7emoutyx.github.io/en/tags/esp32/</loc>
     <lastmod>2024-07-19T15:35:00+01:00</lastmod>
   </url><url>
     <loc>https://7emoutyx.github.io/en/blog/project_espether/</loc>
@@ -20,10 +17,19 @@
     <loc>https://7emoutyx.github.io/en/tags/me/</loc>
     <lastmod>2024-07-19T15:35:00+01:00</lastmod>
   </url><url>
+    <loc>https://7emoutyx.github.io/en/tags/pcb/</loc>
+    <lastmod>2024-07-19T15:35:00+01:00</lastmod>
+  </url><url>
     <loc>https://7emoutyx.github.io/en/tags/</loc>
     <lastmod>2024-07-19T15:35:00+01:00</lastmod>
   </url><url>
+    <loc>https://7emoutyx.github.io/en/tags/about-us/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://7emoutyx.github.io/en/page/about/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://7emoutyx.github.io/en/tags/contact/</loc>
     <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://7emoutyx.github.io/en/page/</loc>

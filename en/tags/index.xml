@@ -9,17 +9,10 @@
     <lastBuildDate>Fri, 19 Jul 2024 15:35:00 +0100</lastBuildDate>
     <atom:link href="https://7emoutyx.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About-Us</title>
-      <link>https://7emoutyx.github.io/en/tags/about-us/</link>
+      <title>Esp32</title>
+      <link>https://7emoutyx.github.io/en/tags/esp32/</link>
       <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
-      <guid>https://7emoutyx.github.io/en/tags/about-us/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://7emoutyx.github.io/en/tags/contact/</link>
-      <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
-      <guid>https://7emoutyx.github.io/en/tags/contact/</guid>
+      <guid>https://7emoutyx.github.io/en/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +20,27 @@
       <link>https://7emoutyx.github.io/en/tags/me/</link>
       <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
       <guid>https://7emoutyx.github.io/en/tags/me/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pcb</title>
+      <link>https://7emoutyx.github.io/en/tags/pcb/</link>
+      <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
+      <guid>https://7emoutyx.github.io/en/tags/pcb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About-Us</title>
+      <link>https://7emoutyx.github.io/en/tags/about-us/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/tags/about-us/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://7emoutyx.github.io/en/tags/contact/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/tags/contact/</guid>
       <description></description>
     </item>
     <item>

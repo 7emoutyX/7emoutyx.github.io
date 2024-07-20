@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esp32 on DAOUDI MOHAMMED</title>
+    <link>https://7emoutyx.github.io/en/tags/esp32/</link>
+    <description>Recent content in Esp32 on DAOUDI MOHAMMED</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Jul 2024 15:35:00 +0100</lastBuildDate>
+    <atom:link href="https://7emoutyx.github.io/en/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESP32-12E Dev Board</title>
+      <link>https://7emoutyx.github.io/en/blog/project_espether/</link>
+      <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project_espether/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The ESP32-12E Dev Board is a custom development board designed to leverage the capabilities of the ESP32-12E microcontroller. This board includes an Ethernet port for wired network connectivity and multiple JST connectors for easy I/O interfacing, making it ideal for IoT applications and prototyping.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
