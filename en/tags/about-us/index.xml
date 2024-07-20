@@ -9,18 +9,39 @@
     <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://7emoutyx.github.io/en/tags/about-us/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Boards </title>
-      <link>https://7emoutyx.github.io/en/blog/hello_world/</link>
+      <title>Board 1 </title>
+      <link>https://7emoutyx.github.io/en/blog/project001/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/hello_world/</guid>
-      <description>SAAD GAY </description>
+      <guid>https://7emoutyx.github.io/en/blog/project001/</guid>
+      <description>Mazal maktbt walo hna hh</description>
+    </item>
+    <item>
+      <title>Boards </title>
+      <link>https://7emoutyx.github.io/en/blog/project002/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project002/</guid>
+      <description>Mazal maktbt walo hna hh</description>
+    </item>
+    <item>
+      <title>Boards </title>
+      <link>https://7emoutyx.github.io/en/blog/project003/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project003/</guid>
+      <description>Mazal maktbt walo hna hh</description>
+    </item>
+    <item>
+      <title>Boards </title>
+      <link>https://7emoutyx.github.io/en/blog/project004/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://7emoutyx.github.io/en/blog/project004/</guid>
+      <description>Mazal maktbt walo hna hh</description>
     </item>
     <item>
       <title>Chkun ana ?</title>
       <link>https://7emoutyx.github.io/en/page/about/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://7emoutyx.github.io/en/page/about/</guid>
-      <description>oh hi labass</description>
+      <description>Oh heyy!! I&amp;rsquo;m Mohammed DAOUDI , also known by Hemouty &amp;hellip; A 22yo passionate electronics and embedded systems engineering student from Morocco , ENSA-Kénitra .I Love C++ , Rust , Electronics and other electrical stuff &amp;hellip;</description>
     </item>
   </channel>
 </rss>
