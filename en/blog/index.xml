@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on DAOUDI MOHAMMED</title>
-    <link>https://7emoutyx.github.io/en/blog/</link>
+    <link>http://localhost:1313/en/blog/</link>
     <description>Recent content in Blogs on DAOUDI MOHAMMED</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jul 2024 15:35:00 +0100</lastBuildDate>
-    <atom:link href="https://7emoutyx.github.io/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ESP32-12E Dev Board</title>
-      <link>https://7emoutyx.github.io/en/blog/project_espether/</link>
+      <link>http://localhost:1313/en/blog/project_espether/</link>
       <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project_espether/</guid>
+      <guid>http://localhost:1313/en/blog/project_espether/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The ESP32-12E Dev Board is a custom development board designed to leverage the capabilities of the ESP32-12E microcontroller. This board includes an Ethernet port for wired network connectivity and multiple JST connectors for easy I/O interfacing, making it ideal for IoT applications and prototyping.&lt;/p&gt;</description>
     </item>
     <item>
       <title>STM32Wb55-DEV BOARD </title>
-      <link>https://7emoutyx.github.io/en/blog/project_max30102/</link>
+      <link>http://localhost:1313/en/blog/project_max30102/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project_max30102/</guid>
+      <guid>http://localhost:1313/en/blog/project_max30102/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The STM32Wb55-DEV BOARD is a development board based on the STM32Wb55 microcontroller. This board is equipped with the Max30102 sensor, which allows for monitoring heart rate and oxygen levels in the blood. It is designed for wearable health monitoring applications and provides a compact and efficient solution for developers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>STM32L432KBU Dev Board</title>
-      <link>https://7emoutyx.github.io/en/blog/project_stmnrf/</link>
+      <link>http://localhost:1313/en/blog/project_stmnrf/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project_stmnrf/</guid>
+      <guid>http://localhost:1313/en/blog/project_stmnrf/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The STM32L432KBU Dev Board is a custom development board designed around the STM32L432KBU microcontroller and the NRF24L01 wireless module. This board is ideal for low-power wireless communication applications and IoT projects.&lt;/p&gt;</description>
     </item>
   </channel>

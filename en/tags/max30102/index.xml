@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MAX30102 on DAOUDI MOHAMMED</title>
-    <link>https://7emoutyx.github.io/en/tags/max30102/</link>
+    <link>http://localhost:1313/en/tags/max30102/</link>
     <description>Recent content in MAX30102 on DAOUDI MOHAMMED</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://7emoutyx.github.io/en/tags/max30102/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/max30102/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>STM32Wb55-DEV BOARD </title>
-      <link>https://7emoutyx.github.io/en/blog/project_max30102/</link>
+      <link>http://localhost:1313/en/blog/project_max30102/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://7emoutyx.github.io/en/blog/project_max30102/</guid>
+      <guid>http://localhost:1313/en/blog/project_max30102/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The STM32Wb55-DEV BOARD is a development board based on the STM32Wb55 microcontroller. This board is equipped with the Max30102 sensor, which allows for monitoring heart rate and oxygen levels in the blood. It is designed for wearable health monitoring applications and provides a compact and efficient solution for developers.&lt;/p&gt;</description>
     </item>
   </channel>
