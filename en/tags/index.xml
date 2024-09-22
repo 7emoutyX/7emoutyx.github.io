@@ -6,20 +6,34 @@
     <description>Recent content in Tags on DAOUDI MOHAMMED</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Jul 2024 15:35:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Me</title>
+      <link>http://localhost:1313/en/tags/me/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/me/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>http://localhost:1313/en/tags/raspberrypi/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reeltime</title>
+      <link>http://localhost:1313/en/tags/reeltime/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/reeltime/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Esp32</title>
       <link>http://localhost:1313/en/tags/esp32/</link>
       <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
       <guid>http://localhost:1313/en/tags/esp32/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Me</title>
-      <link>http://localhost:1313/en/tags/me/</link>
-      <pubDate>Fri, 19 Jul 2024 15:35:00 +0100</pubDate>
-      <guid>http://localhost:1313/en/tags/me/</guid>
       <description></description>
     </item>
     <item>

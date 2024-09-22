@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="/favicon.svg">
+
+  <title>
+  Real-Time Conveyor Production Monitoring System - DAOUDI MOHAMMED
+  </title>
+  <meta name="description" content="A project that I worked on during my internship" />
+  <meta name="author" content="DAOUDI MOHAMMED" />
+  <meta name="generator" content="Hugo 0.128.2">
+  <link rel="stylesheet" href="/css/styles.css" />
+  
+  
+
+  <meta property="og:url" content="http://localhost:1313/en/blog/real-time-conveyor_production_monitoring_system/">
+  <meta property="og:site_name" content="DAOUDI MOHAMMED">
+  <meta property="og:title" content="Real-Time Conveyor Production Monitoring System">
+  <meta property="og:description" content="A project that I worked on during my internship">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-08-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-08-29T00:00:00+00:00">
+    <meta property="article:tag" content="Reeltime">
+    <meta property="article:tag" content="Me">
+    <meta property="article:tag" content="Raspberrypi">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Real-Time Conveyor Production Monitoring System">
+  <meta name="twitter:description" content="A project that I worked on during my internship">
+
+  
+  <meta itemprop="name" content="Real-Time Conveyor Production Monitoring System">
+  <meta itemprop="description" content="A project that I worked on during my internship">
+  <meta itemprop="datePublished" content="2024-08-29T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-29T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1125">
+  <meta itemprop="keywords" content="Reeltime,Me,Raspberrypi">
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="http://localhost:1313/en/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="/logo.png" alt="DAOUDI MOHAMMED" class="h-8 max-w-full" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/en/blog">Blog</a></li>
+    
+    <li><a href="/en/page/about/">About</a></li>
+    
+    <li><a href="/en/tags">Tags</a></li>
+    
+    <li><a href="/en/blog/emoji-support/">Top Post</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+  <div class="relative max-w-5xl mx-auto px-4">
+    <img src="/intern/A1.jpg" class="rounded-lg shadow-sm w-full object-contain" />
+    
+    <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
+      
+  
+    August 29, 2024
+  
+
+
+    </div>
+    
+  </div>
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">Real-Time Conveyor Production Monitoring System</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Posted on 
+  
+    August 29, 2024
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      6&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      1125&nbsp;words
+      
+        
+      
+    </h5>
+    
+
+    <details id="TableOfContents" class="px-4 mt-4 bg-gray-100 dark:bg-gray-700 rounded toc">
+    <summary class="flex items-center font-bold py-2 px-4 cursor-pointer justify-between select-none text-black dark:text-white">
+      <span>Table of contents</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg>
+    </summary>
+
+    <ul class="mt-2 pb-4">
+        
+
+        
+        <li>
+        <a href="#introduction">Introduction</a>
+        
+
+        
+        </li><li>
+        <a href="#software-aspect-">SOFTWARE ASPECT :</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#preparing-the-modified-raspbian-kernel-">Preparing the modified Raspbian Kernel :</a>
+        
+
+        
+        </li><li>
+        <a href="#adding-preempt-rt-patch-to-raspbian-kernel">Adding PREEMPT-RT Patch to Raspbian Kernel</a>
+        
+
+        
+        </li><li>
+        <a href="#1-prepare-your-raspberry-pi">1. Prepare Your Raspberry Pi</a>
+        
+
+        
+        </li><li>
+        <a href="#2-download-the-kernel-source">2. Download the Kernel Source</a>
+        
+
+        
+        </li><li>
+        <a href="#3-download-the-preempt-rt-patch">3. Download the PREEMPT-RT Patch</a>
+        
+
+        
+        </li><li>
+        <a href="#4-apply-the-patch">4. Apply the Patch</a>
+        
+
+        
+        </li><li>
+        <a href="#5-configure-the-kernel">5. Configure the Kernel</a>
+        
+
+        
+        </li><li>
+        <a href="#6-compile-the-kernel">6. Compile the Kernel</a>
+        
+
+        
+        </li><li>
+        <a href="#7-install-the-new-kernel">7. Install the New Kernel</a>
+        
+
+        
+        </li><li>
+        <a href="#8-update-bootloader-u-can-skipp-this-step">8. Update Bootloader (u can skipp this step)</a>
+        
+
+        
+        </li><li>
+        <a href="#9-reboot-and-verify">9. Reboot and Verify</a>
+        
+
+        
+        </li><li>
+        <a href="#10-test-and-optimize">10. Test and Optimize</a>
+        
+
+        
+        </li><li>
+        <a href="#installing-grafana-and-postgresql-">Installing Grafana and PostgreSQL :</a>
+        
+
+        
+        </li><li>
+        <a href="#1-instaling-grafana-">1. Instaling Grafana :</a>
+        
+
+        
+        </li><li>
+        <a href="#2-instaling-postgresql-">2. Instaling PostgreSQL :</a>
+        
+
+        
+        </li><li>
+        <a href="#3-preparing-postgresql-">3. Preparing PostgreSQL :</a>
+        
+
+        
+        </li><li>
+        <a href="#4-create-the-c-code-">4. Create the C code :</a>
+        
+
+        
+        </li><li>
+        <a href="#testing-the-project-">Testing the project :</a>
+        
+
+        
+        </li><li>
+        <a href="#results-">Results :</a>
+        
+
+        
+        </li></ul>
+      </li><li>
+        <a href="#hardware-aspect-">Hardware ASPECT :</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#schematic-design-">Schematic design :</a>
+        
+
+        
+        </li><li>
+        <a href="#layaout-design-">Layaout Design :</a>
+        
+
+        
+        </li></ul>
+      </li><li>
+        <a href="#final-results-">Final Results :</a>
+        </li></ul>
+  </details>
+
+    <h2 id="introduction">Introduction</h2>
+<p>During my two-month internship in the Maintenance Department at Fujikura Automotive Kenitra.I implemented a real-time conveyor production monitoring system using a Raspberry Pi to enhance production tracking. This system was developed as a solution to replace the old manual method of production monitoring, providing a more efficient and accurate approach.
+In this Blog I will share with u the full project SW and HW , including source code , schematics , pcb layout &hellip;</p>
+<h2 id="software-aspect-">SOFTWARE ASPECT :</h2>
+<p>The project was fully built in C, and as part of this, I went beyond the standard implementation by patching the Raspbian kernel to achieve real-time operating system (RTOS) capabilities, optimizing the system&rsquo;s performance for critical tasks.
+Using this patches is not necessary but it will improve the system , u can skipp this stop and just compile the code directly &hellip;</p>
+<h3 id="preparing-the-modified-raspbian-kernel-">Preparing the modified Raspbian Kernel :</h3>
+<h3 id="adding-preempt-rt-patch-to-raspbian-kernel">Adding PREEMPT-RT Patch to Raspbian Kernel</h3>
+<p>This guide provides the steps to patch your Raspbian kernel with <strong>PREEMPT-RT</strong> for enabling real-time capabilities on Raspberry Pi.</p>
+<h3 id="1-prepare-your-raspberry-pi">1. Prepare Your Raspberry Pi</h3>
+<p>Ensure your Raspberry Pi is up-to-date:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#ff79c6">&amp;&amp;</span> sudo apt upgrade
+</span></span></code></pre></div><p>Install essential packages for building the kernel:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install bc bison flex libssl-dev make
+</span></span></code></pre></div><h3 id="2-download-the-kernel-source">2. Download the Kernel Source</h3>
+<p>Navigate to the directory where you&rsquo;ll store the kernel source code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">cd</span> /usr/src
+</span></span></code></pre></div><p>Download the Raspbian kernel source code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone --depth<span style="color:#ff79c6">=</span><span style="color:#bd93f9">1</span> https://github.com/raspberrypi/linux
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">cd</span> linux
+</span></span></code></pre></div><h3 id="3-download-the-preempt-rt-patch">3. Download the PREEMPT-RT Patch</h3>
+<p>Download the latest PREEMPT-RT patch that matches your kernel version from the official repository: <a href="https://cdn.kernel.org/pub/linux/kernel/projects/rt/" target="_blank" rel="noopener">PREEMPT-RT Patches</a>
+
+For example, for kernel <code>5.10</code>, you can find patches like <code>patch-5.10.xx-rt.patch.gz</code>.
+Download and extract the patch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wget https://cdn.kernel.org/pub/linux/kernel/projects/rt/5.10/patch-5.10.xx-rt.patch.gz
+</span></span><span style="display:flex;"><span>gunzip patch-5.10.xx-rt.patch.gz
+</span></span></code></pre></div><h3 id="4-apply-the-patch">4. Apply the Patch</h3>
+<p>Apply the PREEMPT-RT patch to your downloaded kernel source:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>patch -p1 &lt; patch-5.10.xx-rt.patch
+</span></span></code></pre></div><p>Verify the patch was applied successfully without errors.</p>
+<h3 id="5-configure-the-kernel">5. Configure the Kernel</h3>
+<p>Load the default kernel configuration for your Raspberry Pi:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">KERNEL</span><span style="color:#ff79c6">=</span>kernel7
+</span></span><span style="display:flex;"><span>make bcm2709_defconfig
+</span></span></code></pre></div><p>Enable the <strong>PREEMPT-RT</strong> configuration:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make menuconfig
+</span></span></code></pre></div><p>Go to <strong>&ldquo;Kernel Features&rdquo;</strong> → Enable <strong>&ldquo;Preemptible Kernel (Basic RT)&rdquo;</strong> or <strong>&ldquo;Fully Preemptible Kernel (RT)&rdquo;</strong>.</p>
+<p>Exit the menu and save the configuration.</p>
+<h3 id="6-compile-the-kernel">6. Compile the Kernel</h3>
+<p>Compile the kernel with real-time patches:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make -j<span style="color:#ff79c6">$(</span>nproc<span style="color:#ff79c6">)</span> zImage modules dtbs
+</span></span></code></pre></div><h3 id="7-install-the-new-kernel">7. Install the New Kernel</h3>
+<p>After compilation, install the kernel modules:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo make modules_install
+</span></span></code></pre></div><p>Install the kernel, device tree blobs (dtbs), and all of theese files :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo cp arch/arm/boot/zImage /boot/kernel7.img
+</span></span><span style="display:flex;"><span>sudo cp arch/arm/boot/dts/*.dtb /boot/
+</span></span><span style="display:flex;"><span>sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
+</span></span><span style="display:flex;"><span>sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
+</span></span></code></pre></div><h3 id="8-update-bootloader-u-can-skipp-this-step">8. Update Bootloader (u can skipp this step)</h3>
+<p>update the bootloader configuration (<code>/boot/config.txt</code>) to use the new kernel.</p>
+<h3 id="9-reboot-and-verify">9. Reboot and Verify</h3>
+<p>Reboot your Raspberry Pi to apply the changes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div><p>After rebooting, check that the <strong>PREEMPT-RT</strong> patch is active by running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>uname -a
+</span></span></code></pre></div><p>You should see a kernel version with &ldquo;PREEMPT RT&rdquo; in the name, confirming that the real-time patches are active.</p>
+<h3 id="10-test-and-optimize">10. Test and Optimize</h3>
+<p>u can test the real-time performance of these patches by running tools like <code>cyclictest</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install rt-tests
+</span></span><span style="display:flex;"><span>cyclictest --smp --priority<span style="color:#ff79c6">=</span><span style="color:#bd93f9">80</span> --interval<span style="color:#ff79c6">=</span><span style="color:#bd93f9">200</span> --distance<span style="color:#ff79c6">=</span><span style="color:#bd93f9">0</span> -m
+</span></span></code></pre></div><h3 id="installing-grafana-and-postgresql-">Installing Grafana and PostgreSQL :</h3>
+<p>(note that there are lot of other db tools to choose from like MySQL or u can work with InfluxDB &hellip;)</p>
+<h3 id="1-instaling-grafana-">1. Instaling Grafana :</h3>
+<p>Instaling Grafana is pretty easy u can just follow the official documentation here :
+<a href="https://grafana.com/tutorials/install-grafana-on-raspberry-pi/" target="_blank" rel="noopener">Installing GRAFANA</a>
+
+After instalation u should test it to verify if it working :
+<img alt="Grafana is Runing : " src="/intern/grafana.png">
+<em>Figure 1: Grafana is runing</em></p>
+<h3 id="2-instaling-postgresql-">2. Instaling PostgreSQL :</h3>
+<p>Same goes for Postgresql the process is pretty easy u can just follow the official documentation here :
+<a href="https://singleboardblog.com/install-postgresql-on-raspberry-pi/" target="_blank" rel="noopener">Installing PostgreSQL</a>
+
+<img alt="PostgreSQL is Runing : " src="/intern/postgres.png">
+<em>Figure 2: PostgreSQL is runing</em></p>
+<h3 id="3-preparing-postgresql-">3. Preparing PostgreSQL :</h3>
+<p>now after installing all the requirement u can start working on ur version of project , choose the database architecture suitable for ur needs for example in my project this is my DB architecture :
+<img alt="PostgreSQL Architecture : " src="/intern/db.png">
+<em>Figure 3: PostgreSQL Architecture :</em></p>
+<h3 id="4-create-the-c-code-">4. Create the C code :</h3>
+<p>u can find the Source code in my repository named Main.c
+<a href="https://github.com/7emoutyX/InternshipPFA/blob/main/main.c" target="_blank" rel="noopener">SOURCE CODE </a>
+</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano main.c
+</span></span></code></pre></div><p>after that past the code in the nano editor , (use vim is better hh) and after that exit the editor and compile the code by :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcc main.c -o lcd -lwiringPi -lpq -I/usr/include/postgresql
+</span></span></code></pre></div><p>here the output executable named LCD , and the libraries used are WiringPI to utilise the gpios and Pq to utilise the PostgreSQL database with C.</p>
+<h3 id="testing-the-project-">Testing the project :</h3>
+<p>now in ur browser go to : urRaspberryPiIpAdresse:3000 a window will pop up like that
+<img alt="Grafana interface " src="/intern/graf.png">
+<em>Figure 4: Grafana interface</em></p>
+<h3 id="results-">Results :</h3>
+<p>After modifying the querries in grafana u can achieve results that satisfy ur needs , for me those two dashboard are the goal of my internship :
+<img alt="Grafana interface " src="/intern/rs.png">
+<em>Figure 5: First Dashboard</em>
+<img alt="Grafana interface " src="/intern/rs2.png">
+<em>Figure 6: Second Dashboard</em></p>
+<h2 id="hardware-aspect-">Hardware ASPECT :</h2>
+<p>During my internship with the maintenance team, I encountered an interesting situation: one of the cable joining machines went down. Upon inspecting its PCB, I discovered something unexpected. Typically, I’ve seen industrial boards using integrated compute units, often powered by ARM or x86-based CPUs. Some even utilize FPGA or RISC-V architectures. However, this time, I came across a board powered by a Raspberry Pi Compute Module 1.</p>
+<p>At first, it struck me as odd. Why use a Raspberry Pi Compute Module in an industrial setting? But after giving it some thought, I realized the brilliance behind this approach. Leveraging a Raspberry Pi Compute Module offers a number of benefits:</p>
+<ul>
+<li><strong>Modularity</strong>: It allows for easy upgrades and maintenance.</li>
+<li><strong>Open-source ecosystem</strong>: You gain access to a vast array of open-source software and hardware.</li>
+<li><strong>Cost efficiency</strong>: Raspberry Pi solutions are generally more affordable compared to traditional industrial compute units.</li>
+</ul>
+<p>Of course, there are some trade-offs, such as potential limitations in performance or durability compared to purpose-built industrial CPUs, but overall, I found the design clever and innovative. This experience inspired me to take on a project of my own. Rather than building a Raspberry Pi HAT (which was my original plan), I decided to go a step further and design a full-fledged PCB based on the <strong>Raspberry Pi Compute Module 4</strong>.</p>
+<p>I designed a 4-layer PCB using <strong>Altium</strong>, incorporating high-speed signal traces for <strong>HDMI</strong>, <strong>Ethernet</strong>, and <strong>USB</strong>, along with an integrated power module to ensure the board could handle the demands of an industrial environment.</p>
+<p>It’s been an exciting journey re-engineering this board, and I’m thrilled to see how versatile the Raspberry Pi can be, even in industrial applications. This experience has deepened my appreciation for the power of open-source hardware and inspired me to push the boundaries in my own work.</p>
+<h3 id="schematic-design-">Schematic design :</h3>
+<p>all of the schematics are in this PDF file :
+<a href="https://github.com/7emoutyX/InternshipPFA/blob/main/Internship_project.pdf" target="_blank" rel="noopener">Schematic PDF</a>
+</p>
+<h3 id="layaout-design-">Layaout Design :</h3>
+<p>Front Layer
+<img alt="Grafana interface " src="/intern/ss.png">
+<em>Figure 6: Front layer</em></p>
+<p>Back Layer
+<img alt="Grafana interface " src="/intern/sa.png">
+<em>Figure 7: Back Layer</em></p>
+<p>All the 4 layers :
+<img alt="Grafana interface " src="/intern/qw.png">
+<em>Figure 8: All the layers</em></p>
+<p>Dielectric constants :
+<img alt="Grafana interface " src="/intern/dd.png">
+*Figure 9: Dielectric Constants *</p>
+<h2 id="final-results-">Final Results :</h2>
+<p><img alt="Grafana interface " src="/intern/A1.jpg">
+<img alt="Grafana interface " src="/intern/A2.jpg">
+<img alt="Grafana interface " src="/intern/A3.jpg">
+<img alt="Grafana interface " src="/intern/A4.jpg"></p>
+  </article>
+<div class="px-2 mb-2">
+  
+  <script src="https://giscus.app/client.js"
+    data-repo=""
+    data-repo-id=""
+    data-category=""
+    data-category-id=""
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+  </script>
+  
+</div>
+<div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2">Follow me</div>
+      <p class="opacity-60">More about my works in my socials</p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.linkedin.com/in/muhammedaoudi/"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://github.com/7emoutyX"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+            />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://medium.com/@muhamedaoudi"
+          target="_blank"
+          rel="noopener"
+          aria-label="Medium"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <path d="M8 9h1l3 3l3 -3h1" />
+            <line x1="8" y1="15" x2="10" y2="15" />
+            <line x1="14" y1="15" x2="16" y2="15" />
+            <line x1="9" y1="9" x2="9" y2="15" />
+            <line x1="15" y1="9" x2="15" y2="15" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.instagram.com/7rissyan/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-instagram"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+            <circle cx="12" cy="12" r="9" />
+            <path d="M10 9l5 3l-5 3z" />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+      
+      <li>
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Twitter"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+            />
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a
+          href="https://www.behance.net/daoudimohammed"
+          target="_blank"
+          rel="noopener"
+          aria-label="Behance"
+          class="p-1 inline-block rounded-full border border-transparent text-gray-500 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-behance" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 18v-12h4.5a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-4.5"></path>
+            <line x1="3" y1="12" x2="7.5" y2="12"></line>
+            <path d="M14 13h7a3.5 3.5 0 0 0 -7 0v2a3.5 3.5 0 0 0 6.64 1"></path>
+            <line x1="16" y1="6" x2="19" y2="6"></line>
+        </svg>
+        </a>
+      </li>
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2024 - DAOUDI MOHAMMED · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="http://localhost:1313/js/scripts.min.js"></script>
+
+
+  
+
+
+
+
+
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>
